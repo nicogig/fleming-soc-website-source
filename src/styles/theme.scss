@@ -1,0 +1,35 @@
+// theme.scss
+
+// Black and White Theme
+
+:root {
+    --mdc-theme-primary: #ABCC00;
+    --mdc-theme-on-primary: #282A2B;
+    --mdc-theme-secondary: #ffffff;
+    --mdc-theme-on-secondary: #282A2B;
+    --mdc-theme-surface: #3A3E42;
+    --mdc-theme-background: #282A2B;
+    --mdc-theme-on-background: #ffffff;
+}
+
+// :root {
+//     --mdc-theme-primary: #ffffff;
+//     --mdc-theme-on-primary: #000000;
+//     --mdc-theme-secondary: #212121;
+//     --mdc-theme-on-secondary: #ffffff;
+//     --mdc-theme-surface: #424242;
+//     --mdc-theme-background: #303030;
+//     --mdc-theme-on-background: #ffffff;
+// }
+
+// Natural Theme
+
+// :root {
+//     --mdc-theme-primary: #385e3d;
+//     --mdc-theme-on-primary: #ffffff;
+//     --mdc-theme-secondary: #be740b;
+//     --mdc-theme-on-secondary: #ffffff;
+//     --mdc-theme-surface: #e9e7e3;
+//     --mdc-theme-background: #e9e7e3;
+//     --mdc-theme-on-background: #503732;
+// }
