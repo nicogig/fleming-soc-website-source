@@ -6,7 +6,7 @@ description: Learn more about the UV Spectrum, the UV sensor, and how to use it 
 ## Overview
 This sensor is capable of detecting light in the UV, visible and infrared frequencies. 
 
-If you'd like to know more about the UV scale and when UV rays start to become dangerous, <a href="./materials/UVExplained.pdf" class="external-link">click here</a>.
+If you'd like to know more about the UV scale and when UV rays start to become dangerous, <a href="./materials/UVExplained.pdf" class="external-link" download>click here</a>.
 
 
 ## Wiring
@@ -46,7 +46,7 @@ Once this is all installed you can now download the demo code from our website a
 Congrats! You are now ready to tackle the tutorial code.
 
 <button class="mdc-button mdc-button--raised">
-  <a href="./code/UVTutorialCode.ino" class="mdc-button__label" style="text-decoration: none;">Download the Code</a>
+  <a href="./code/UVTutorialCode.ino" class="mdc-button__label" style="text-decoration: none;" download>Download the Code</a>
 </button> 
 
 ***

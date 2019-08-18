@@ -30,7 +30,7 @@ And if something is barely pressing on it, the FSR may be 40K of resistance, so 
 Congrats! You are now ready to tackle the tutorial code.
 
 <button class="mdc-button mdc-button--raised">
-  <a href="./code/ForceTutorial.ino" class="mdc-button__label" style="text-decoration: none;">Download the Code</a>
+  <a href="./code/ForceTutorial.ino" class="mdc-button__label" style="text-decoration: none;" download>Download the Code</a>
 </button>
 
 ***

@@ -39,7 +39,7 @@ Simples.
 Congrats! You are now ready to tackle the tutorial code.
 
 <button class="mdc-button mdc-button--raised">
-  <a href="./code/MicTutorial.ino" class="mdc-button__label" style="text-decoration: none;">Download the Code</a>
+  <a href="./code/MicTutorial.ino" class="mdc-button__label" style="text-decoration: none;" download>Download the Code</a>
 </button>
 
 ***
