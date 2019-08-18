@@ -1,7 +1,10 @@
 import { Link } from "gatsby"
 import React, { Component } from "react"
+import Img from "gatsby-image"
 
 import styles from "./header.module.scss"
+
+import logo from "../../../src/images/logo-no-outer.png"
 
 class Header extends Component {
   render() {
@@ -16,8 +19,10 @@ class Header extends Component {
       <header className={styles.siteHeader}>
         <nav>
           <ul>
-            <ListLink to={`/`}>home</ListLink>
-            <ListLink to={`/workshops/`}>workshops</ListLink>
+            <ListLink to={`/`}>
+              <img src={ logo } style={{ height:18 + "px" }}/>  home
+            </ListLink>
+            <ListLink to={`/workshops/`}><span role="img" aria-label="hammer and spanner">🛠</span> workshops</ListLink>
           </ul>
         </nav>
       </header>
