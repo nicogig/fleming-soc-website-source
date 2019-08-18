@@ -1,8 +1,6 @@
 import React from "react"
 import { Link, StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
-import Anime from 'react-anime';
-
 import "./blogPostGrid.module.scss"
 
 import Card, {

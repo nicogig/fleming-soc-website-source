@@ -18,6 +18,12 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
+            <Link
+              style={{ textDecoration: `underline` }}
+              to={this.props.navigation}
+              rel="prev">
+              ⌂ Go Home
+            </Link>
         <h1>{post.frontmatter.title}</h1>
         <p
           style={{
@@ -31,6 +37,7 @@ class BlogPostTemplate extends React.Component {
           className={styles.blogPostContent}
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
+        {/*
         <ul
           style={{
             display: `flex`,
@@ -63,6 +70,7 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
+            */}
       </CenteredLayout>
     )
   }
