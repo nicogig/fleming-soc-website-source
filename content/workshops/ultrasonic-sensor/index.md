@@ -36,7 +36,7 @@ Using the search box in the top right hand corner of the window that has popped 
 Congrats! You are now ready to tackle the tutorial code.
 
 <button class="mdc-button mdc-button--raised">
-  <a href="./code/DistanceTutorial.ino" class="mdc-button__label">Download the Code</a>
+  <a href="./code/DistanceTutorial.ino" class="mdc-button__label" style="text-decoration: none;">Download the Code</a>
 </button>
 
 ***

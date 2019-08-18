@@ -46,7 +46,7 @@ Once this is all installed you can now download the demo code from our website a
 Congrats! You are now ready to tackle the tutorial code.
 
 <button class="mdc-button mdc-button--raised">
-  <a href="./code/UVTutorialCode.ino" class="mdc-button__label">Download the Code</a>
+  <a href="./code/UVTutorialCode.ino" class="mdc-button__label" style="text-decoration: none;">Download the Code</a>
 </button> 
 
 ***

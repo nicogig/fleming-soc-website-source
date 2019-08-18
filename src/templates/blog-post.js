@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
+import Button from '@material/react-button';
 
 import CenteredLayout from "../components/CenteredLayout/CenteredLayout"
 import SEO from "../components/SEO/SEO"
@@ -19,10 +20,11 @@ class BlogPostTemplate extends React.Component {
           description={post.frontmatter.description || post.excerpt}
         />
             <Link
-              style={{ textDecoration: `underline` }}
-              to={this.props.navigation}
-              rel="prev">
-              ⌂ Go Home
+              to="/workshops"
+              rel="workshops">
+                <Button>
+                ← Go Back
+                </Button>
             </Link>
         <h1>{post.frontmatter.title}</h1>
         <p
