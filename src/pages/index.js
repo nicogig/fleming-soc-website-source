@@ -8,7 +8,7 @@ import Button from "@material/react-button"
 import Card from "@material/react-card"
 
 // import idahoOutlineLightTheme from "../images/icons/idaho-outline--lightTheme.svg"
-import heroImage from "../images/fleming-logo.svg"
+import heroImage from "../images/hero.png"
 
 // Styles
 import "../styles/app.scss"
@@ -21,12 +21,10 @@ class IndexPage extends React.Component {
       <Layout>
         <SEO />
         <section className="anoun-home--section1">
-        <img src={heroImage} alt="anoun-hero" />
-        <br></br>
-          <h3>Hi, we're the <span className="fleming-title">FLEMING SOCIETY</span> <span role="img" aria-label="waving hand">👋</span></h3>
+        <img src={heroImage} alt="hero" />
+          <h3>Hi, we're the <span className="fleming-title">Fleming Society</span> <span role="img" aria-label="waving hand">👋</span></h3>
           <br></br>
           <h4>We are UCL's <a className="external-link" href={'https://www.ucl.ac.uk/electronic-electrical-engineering/'}>Electronic & Electrical Engineering</a> Departmental Society.</h4>
-
         </section>
         <section className="anoun-home--section2">
           <h3>We host a large number of events, including:</h3>

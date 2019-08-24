@@ -157,9 +157,7 @@ code span::selection {
   font-family: "Lato", sans-serif;
   text-align: center;
 }
-.anoun-home--section1 > img {
-  max-width: 336px;
-}
+
 
 .external-link {
   color: var(--mdc-theme-primary);
@@ -173,8 +171,8 @@ code span::selection {
   background: rgb(102, 51, 153);
   background: linear-gradient(
     130deg,
-    rgba(106, 128, 0, 1) 0%,
-    rgba(171, 204, 0, 1) 100%,
+    #1be789 0%,
+    #1be789 100%,
     rgba(255, 255, 255, 1) 100%
   );
   color: var(--mdc-theme-on-primary);

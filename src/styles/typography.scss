@@ -106,8 +106,14 @@
   color: var(--mdc-theme-primary);
 }
 
-.fleming-title {
-  font-family: "Ubuntu", sans-serif;
+@font-face {
+  font-family: 'MuseoSans_500';
+  src: url('MuseoSans_500-webfont.woff2') format('woff2'),
+       url('MuseoSans_500-webfont.woff') format('woff');
+  font-weight: normal;
   font-style: normal;
-  font-weight: bold;
+}
+
+.fleming-title {
+  font-family: 'MuseoSans_500';
 }
