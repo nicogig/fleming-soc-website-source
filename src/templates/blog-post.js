@@ -20,8 +20,8 @@ class BlogPostTemplate extends React.Component {
           description={post.frontmatter.description || post.excerpt}
         />
             <Link
-              to="/workshops"
-              rel="workshops">
+              to="/project-x/"
+              rel="project-x">
                 <Button>
                 ← Go Back
                 </Button>
