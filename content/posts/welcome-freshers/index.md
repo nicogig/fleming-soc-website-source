@@ -1,9 +1,8 @@
 ---
-title: Welcome, 2019 Freshers!
-date: 2019-09-18T12:00:00.000+00:00
-featured_image: "./finn-hackshaw-FQgI8AD-BSg-unsplash.jpg"
+title: EEE Pub Crawl
+date: 2019-10-04T19:00:00.000+00:00
+featured_image: "./pub-crawl.png"
+url: "https://www.facebook.com/flemingsociety/photos/a.380664375402832/1648060115329912/?type=3&theater"
 ---
 
-Catch us at the Introduction to EEE Lecture!
-
- Location: Roberts Building, UCL Main Campus.
+The party continues after Freshers Week. Come along to meet your fellow fun loving engineers! Drinks included.

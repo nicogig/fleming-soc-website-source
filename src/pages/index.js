@@ -5,13 +5,20 @@ import SEO from "../components/SEO/SEO"
 import Layout from "../components/Layout/Layout"
 
 import Button from "@material/react-button"
-import Card from "@material/react-card"
-
+import Card, {
+  CardPrimaryContent,
+  CardActions,
+  CardActionButtons,
+} from "@material/react-card"
 // import idahoOutlineLightTheme from "../images/icons/idaho-outline--lightTheme.svg"
 import heroImage from "../images/hero.png"
 
 // Styles
 import "../styles/app.scss"
+
+//Icons
+import MaterialIcon from 'material-icons-react';
+
 
 class IndexPage extends React.Component {
   render() {
@@ -40,10 +47,12 @@ class IndexPage extends React.Component {
             {posts.map(({ node }) => {
               const title = node.frontmatter.title || node.fields.slug
               return (
+                <a href={ node.frontmatter.url } target={ "_blank" }>
                   <Card
                     className="mdc-card--clickable anoun-blog-card"
                     key={node.fields.slug}
                   >
+                    <CardPrimaryContent>
                     <Img
                       className="mdc-card__media"
                       fluid={
@@ -61,7 +70,14 @@ class IndexPage extends React.Component {
                         }}
                       />
                     </div>
-                  </Card>
+                    </CardPrimaryContent>
+                  <CardActions>
+              <CardActionButtons>
+                <Button><MaterialIcon icon="open_in_new" size={18} color='#1be789'/> Check out on Facebook</Button>
+              </CardActionButtons>
+            </CardActions>
+            </Card>
+                  </a>
               )
             })}
           </div>
@@ -88,6 +104,7 @@ export const indexQuery = graphql`
                  frontmatter {
                    date(formatString: "MMMM DD, YYYY")
                    title
+                   url
                    featured_image {
                      childImageSharp {
                        fluid(maxWidth: 1200, quality: 92) {
