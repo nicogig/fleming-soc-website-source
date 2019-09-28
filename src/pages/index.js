@@ -17,7 +17,6 @@ import heroImage from "../images/hero.png"
 import "../styles/app.scss"
 
 //Icons
-import MaterialIcon from 'material-icons-react';
 
 
 class IndexPage extends React.Component {
@@ -73,7 +72,7 @@ class IndexPage extends React.Component {
                     </CardPrimaryContent>
                   <CardActions>
               <CardActionButtons>
-                <Button><MaterialIcon icon="open_in_new" size={18} color='#1be789'/> Check out on Facebook</Button>
+                <Button>Check out on Facebook</Button>
               </CardActionButtons>
             </CardActions>
             </Card>
