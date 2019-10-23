@@ -41,6 +41,21 @@ class BlogPage extends React.Component {
             </CardActions>
             </Link>
         </Card>
+        <Card
+        className="mdc-card--clickable anoun-blog-card">
+          <Link to={"/diptrace-workshop/"}>
+          <CardPrimaryContent>
+            <div className="anoun-blog-card-content__container">
+              <h3>DipTrace Workshop</h3>
+            </div>
+            </CardPrimaryContent>
+            <CardActions fullBleed>
+              <CardActionButtons>
+                <Button>Visit</Button>
+              </CardActionButtons>
+            </CardActions>
+            </Link>
+        </Card>
       </CenteredLayout>
     )
   }
