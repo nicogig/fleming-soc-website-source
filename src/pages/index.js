@@ -41,7 +41,7 @@ class IndexPage extends React.Component {
           <h3>We are also part of UCL Engineering Society.</h3>
         </section>
         <section className="anoun-home--section3">
-          <h2>Next Events</h2>
+          <h2>Our Events</h2>
           <div className="blog-posts__container">
             {posts.map(({ node }) => {
               const title = node.frontmatter.title || node.fields.slug
