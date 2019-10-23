@@ -17,7 +17,7 @@ This workshop will be largely self-guided through the use of this lab script, by
 
 If you get stuck, don’t hesitate to ask.
 
-If you need to see a bigger version of the images, simply click on them and they'll open in a new tab.
+If you need to see a bigger version of the images, simply right click on them and click "Open in new Tab".
 
 ## The General PCB Design Project
 
