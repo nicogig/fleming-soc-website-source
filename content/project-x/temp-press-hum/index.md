@@ -49,7 +49,7 @@ Once this is all installed you can now download the demo code from our website a
 Congrats! You are now ready to tackle the tutorial code.
 
 <button class="mdc-button mdc-button--raised">
-  <a href="./code/TempPressHumidTutorial.ino" class="mdc-button__label" style="text-decoration: none;" download>Download the Code</a>
+  <a href="https://raw.githubusercontent.com/nicogig/fleming_crate/master/Project_X/temp-press-hum/TempPressHumidTutorial.ino" class="mdc-button__label" style="text-decoration: none;" download>Download the Code</a>
 </button> 
 
 ***
