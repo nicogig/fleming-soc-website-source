@@ -151,6 +151,6 @@ Congrats! You now have a completed PCB Design!
 You can now continue exploring DipTrace if you'd like. If you want, you can get an offline copy of this script by clicking the button below.
 
 <button class="mdc-button mdc-button--raised">
-  <a href="./files/diptrace_script.pdf" class="mdc-button__label" style="text-decoration: none;" download>Download the Script</a>
+  <a href="https://github.com/nicogig/fleming_crate/raw/master/DipTrace/diptrace_script.pdf" class="mdc-button__label" style="text-decoration: none;" download>Download the Script</a>
 </button>
 
