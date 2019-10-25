@@ -50,6 +50,7 @@ class IndexPage extends React.Component {
                   <Card
                     className="mdc-card--clickable anoun-blog-card"
                     key={node.fields.slug}
+                    paddingBottom={20}
                   >
                     <CardPrimaryContent>
                     <Img
