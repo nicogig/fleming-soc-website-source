@@ -158,6 +158,29 @@ code span::selection {
   text-align: center;
 }
 
+.anoun-home--section1--calling {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+}
+
+.anoun-home--section1--calling > h3 {
+  margin: 0 auto;
+  font-family: "Lato", sans-serif;
+  text-align: left;
+}
+
+.anoun-home--section1--calling > h4 {
+  text-align: left;
+}
+
+.anoun-home--section1--calling--div {
+  margin: 0 auto;
+}
+
 
 .external-link {
   color: var(--mdc-theme-primary);
