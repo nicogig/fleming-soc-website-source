@@ -11,7 +11,7 @@ import Card, {
   CardActionButtons,
 } from "@material/react-card"
 // import idahoOutlineLightTheme from "../images/icons/idaho-outline--lightTheme.svg"
-import heroImage from "../images/hero-temp.png"
+import heroImage from "../images/hero.png"
 
 // Styles
 import "../styles/app.scss"
@@ -26,13 +26,13 @@ class IndexPage extends React.Component {
     return (
       <Layout>
         <SEO />
-        <section className="anoun-home--section1--calling">
+        <section className="anoun-home--section1">
         <img src={heroImage} alt="hero" />
-          {/*<h3>Hi, we're the <span className="fleming-title">Fleming Society</span> <span role="img" aria-label="waving hand">👋</span></h3>
+          <h3>Hi, we're the <span className="fleming-title">Fleming Society</span> <span role="img" aria-label="waving hand">👋</span></h3>
           <br></br>
-    <h4>We are UCL's <a className="external-link" href={'https://www.ucl.ac.uk/electronic-electrical-engineering/'}>Electronic & Electrical Engineering</a> Departmental Society.</h4>*/}
-    <h4>Help us inspire younger people. Or help us design the next big social. Applications for First Year Representatives and Workshop Mentors are now open.</h4>
-    <h4>Apply now for <a className="external-link" href={'https://nicolagigante.typeform.com/to/MRbfRh'}>First Year Representative</a> or <a className="external-link" href={'https://nicolagigante.typeform.com/to/JRE6cp'}>Workshop Mentor</a>.</h4>
+    <h4>We are UCL's <a className="external-link" href={'https://www.ucl.ac.uk/electronic-electrical-engineering/'}>Electronic & Electrical Engineering</a> Departmental Society.</h4>
+    {/*<h4>Help us inspire younger people. Or help us design the next big social. Applications for First Year Representatives and Workshop Mentors are now open.</h4>
+    <h4>Apply now for <a className="external-link" href={'https://nicolagigante.typeform.com/to/MRbfRh'}>First Year Representative</a> or <a className="external-link" href={'https://nicolagigante.typeform.com/to/JRE6cp'}>Workshop Mentor</a>.</h4>*/}
         </section>
         <section className="anoun-home--section2">
           <h3>We host a large number of events, including:</h3>
